@@ -31,5 +31,5 @@
 
 | No | 主題 | 筆記 | DEMO |
 | --- | --- | --- | --- |
-| 01 | JavaScript Drum Kit | [笔记](https://github.com/Lojze/javascript30/blob/master/01_Java-Script-Drum-Kit/readme.md) | [DEMO](https://lojze.github.io/javascript30/01_Java-Script-Drum-Kit/index-lozje.html) 
+| 01 | JavaScript Drum Kit | [笔记](https://github.com/Lojze/javascript30/tree/master/01_Java-Script-Drum-Kit) | [DEMO](https://lojze.github.io/javascript30/01_Java-Script-Drum-Kit/index-lozje.html) 
 
