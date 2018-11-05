@@ -31,5 +31,5 @@
 
 | No | 主題 | 筆記 | DEMO |
 | --- | --- | --- | --- |
-| 01 | JavaScript Drum Kit | [筆記](https://guahsu.io/2017/05/JavaScript30-01-Java-Script-Drum-Kit/) | [DEMO](https://guahsu.io/JavaScript30/01_Java-Script-Drum-Kit/index-GuaHsu.html) 
+| 01 | JavaScript Drum Kit | [笔记](https://guahsu.io/2017/05/JavaScript30-01-Java-Script-Drum-Kit/) | [DEMO](https://guahsu.io/JavaScript30/01_Java-Script-Drum-Kit/index-GuaHsu.html) 
 
