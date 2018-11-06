@@ -6,6 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>按字母打鼓</title>
+    <style>
+        html {
+            font-size: 10px;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background: #ccc;
+            font-family: sans-serif;
+        }
+
+        .keys {
+            display: flex;
+            flex: 1;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .key {
+            width: 10rem;
+            border: .4rem solid black;
+            border-radius: .5rem;
+            font-size: 1.5rem;
+            padding: 1rem .5rem;
+            text-align: center;
+            color: white;
+            text-shadow: 0 0 .5rem black;
+            margin: 1rem;
+            /* 添加动画效果 */
+            transition: all .07s ease;
+        }
+
+        .playing{
+            /* 放大一下 */
+            transform: scale(1.1);
+            border-color: #ffc600;
+            box-shadow: 0 0 1rem #ffc600;
+        }
+
+        kbd {
+            display: block;
+            font-size: 4rem;
+        }
+
+        .sound {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: .1rem;
+            color: #ffc600;
+        }
+    </style>
 </head>
 
 <body>
@@ -56,6 +110,32 @@
     <audio data-key="74" src="sounds/snare.wav"></audio>
     <audio data-key="75" src="sounds/tom.wav"></audio>
     <audio data-key="76" src="sounds/tink.wav"></audio>
+
+    <script>
+
+        //处理添加的样式& 触发音频
+        function playSound(event){
+            const key = document.querySelector(`div[data-key="${event.keyCode}"]`)
+            //如果key为空 return
+            if(!key) return
+            const audio = document.querySelector(`audio[data-key="${event.keyCode}"]`)
+            key.classList.add('playing');
+            audio.currentTime = 0;
+            audio.play()
+        }
+
+        //删除样式
+        function removeClass(e){
+            if (e.propertyName !== 'transform') return;
+            e.target.classList.remove('playing');
+        }
+
+        const keys = Array.from(document.querySelectorAll('.key'));
+        keys.forEach(key => key.addEventListener('transitionend',removeClass))
+
+        // 获取点击事件
+        window.addEventListener('keydown',playSound)
+    </script>
 </body>
 
 </html>
