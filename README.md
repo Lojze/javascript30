@@ -4,7 +4,7 @@
 
 
 >[WES BOS的GitHub](https://github.com/wesbos/JavaScript30)  
-[JavaScript30官網](https://javascript30.com/)
+[JavaScript30官网](https://javascript30.com/)
 [youtube](https://www.youtube.com/playlist?list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH)
 
 ## 目的
@@ -29,7 +29,7 @@
 
 ## 列表
 
-| No | 主題 | 筆記 | DEMO |
+| No | 主题 | 笔记 | DEMO |
 | --- | --- | --- | --- |
 | 01 | JavaScript Drum Kit | [笔记](https://github.com/Lojze/javascript30/tree/master/01_Java-Script-Drum-Kit) | [DEMO](https://lojze.github.io/javascript30/01_Java-Script-Drum-Kit/index-lozje.html) 
 
