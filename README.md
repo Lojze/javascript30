@@ -35,5 +35,6 @@
 | 02 | JS and CSS Clock | [笔记](https://github.com/Lojze/javascript30/tree/master/02_JS-and-CSS-Clock) | [DEMO](https://lojze.github.io/javascript30/02_JS-and-CSS-Clock/index-lojze.html)
 | 03 | CSS Variable | [笔记](https://github.com/Lojze/javascript30/tree/master/03_CSS-Variables) | [DEMO](https://lojze.github.io/javascript30/03_CSS-Variables/index-lojze.html)
 | 04 | 04 Array Cardio | [笔记](https://github.com/Lojze/javascript30/tree/master/04_Array_Cardio) | [DEMO](https://lojze.github.io/javascript30/04_Array_Cardio/index-lojze.html)
+| 05 | 05 Flex Panel Gallery | [笔记](https://github.com/Lojze/javascript30/tree/master/05_Flex_Panel_Gallery) | [DEMO](https://lojze.github.io/javascript30/05_Flex_Panel_Gallery/index-lojze.html)
  
 
